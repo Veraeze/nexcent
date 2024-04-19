@@ -6,7 +6,6 @@ import fourth from "../../../assets/home/clientsIcons/Logo (4).png"
 import fifth from "../../../assets/home/clientsIcons/Logo (5).png"
 import sixth from "../../../assets/home/clientsIcons/Logo (6).png"
 import seventh from "../../../assets/home/clientsIcons/Logo (7).png"
-import instagramIcon from "../../../assets/footer/Social Icons.png";
 
 
 const Client = () => {

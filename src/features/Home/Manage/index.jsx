@@ -11,10 +11,10 @@ const Manage = () => {
                 {
                     Content.map((items, index) => {
                         return (
-                            <div key={index}>
+                            <div style={{flexDirection: "column", display: "flex", textAlign: "center", alignItems: "center", justifyContent: "center"}} key={index}>
                                 <img src={items.image} alt={""}/>
-                                <h2 style={{color: "#4D4D4D"}}>{items.title}</h2>
-                                <h4>{items.definition}</h4>
+                                <h2 style={{color: "#4D4D4D", fontSize: "28px"}}>{items.title}</h2>
+                                <h4 style={{fontSize: "14px"}}>{items.definition}</h4>
                             </div>
 
                         )

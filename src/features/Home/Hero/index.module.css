@@ -23,3 +23,7 @@
     height: 407px;
     margin-right: 20px;
 }
+
+@media  screen and (max-width: 760px) {
+    .rightCont{display: none}
+}

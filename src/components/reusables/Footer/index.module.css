@@ -45,3 +45,8 @@
 .firstSection > p{
     gap: 8px;
 }
+.mainCont{
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+    margin-top: 220px;
+}
