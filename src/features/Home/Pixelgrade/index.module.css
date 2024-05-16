@@ -3,12 +3,11 @@
     padding: 0 144px 0 144px;
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
     gap: 50px;
 }
 
 .rightCont{
-    margin-top: 45px;
+    padding-top: 2.6rem;
 }
 
 .rightCont>h1{
@@ -16,4 +15,25 @@
 }
 .rightCont>p{
     font-size: 16px;
+}
+@media screen and (max-width: 760px) {
+    .mainCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .rightCont>h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 34px;
+        color: #4D4D4D;
+    }
+    .rightCont>p{
+        font-weight: 200;
+        font-size: 11px;
+        line-height: 15px;
+        color: #717171;
+    }
 }

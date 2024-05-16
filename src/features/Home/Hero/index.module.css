@@ -1,22 +1,31 @@
 .mainCont{
     display: flex;
     flex-direction: row;
-    gap: 170px;
-    padding: 96px 144px 96px 144px;
+    justify-content: space-evenly;
     background-color: whitesmoke;
 }
 .leftCont > p{
-    margin-bottom: 15px;
+    color: #717171;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
+    /*margin-bottom: 15px;*/
+    /*font-size: 16px;*/
 }
 
 .leftCont{
-    gap: 32px;
-    width: 657px;
-    height: 276px;
+    display: flex;
+    flex-direction: column;
+    /*gap: 32px;*/
+    /*width: 657px;*/
+    /*height: 276px;*/
 }
 .leftCont > h1{
-    font-size: 64px;
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76px;
+    margin-bottom: 0;
 }
 .rightCont{
     width: 391px;

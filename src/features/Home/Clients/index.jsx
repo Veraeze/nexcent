@@ -11,10 +11,10 @@ import seventh from "../../../assets/home/clientsIcons/Logo (7).png"
 const Client = () => {
     return(
         <div className={style.mainCont}>
-
+            <div className={style.words}>
                 <h1>Our Clients</h1>
                 <p>We have been working with some Fortune 500+ clients</p>
-
+            </div>
             <div className={style.clientIcon}>
                 <img src={first} alt={"First Client Icon"}/>
                 <img src={second} alt={"second Client Icon"}/>

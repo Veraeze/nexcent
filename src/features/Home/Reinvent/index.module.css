@@ -1,9 +1,16 @@
 .mainCont{
     display: flex;
     flex-direction: row;
-    padding: 64px 144px 64px 144px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: whitesmoke;
+
+}
+.leftCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .rightCont{
     display: flex;
@@ -11,11 +18,28 @@
     width: 540px;
     height: 150px;
     gap: 30px;
+    margin-top: 15px;
 }
 .leftCont > h1{
+    color: #4D4D4D;
+    font-weight: 500;
+    margin-top: 2rem;
     font-size: 36px;
 }
 
 .leftCont > p{
+    color: #18191F;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
+@media screen and (max-width: 760px){
+    .mainCont{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .rightCont{
+        margin-left: 40px;
+    }
+}
+
